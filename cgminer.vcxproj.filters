@@ -42,6 +42,69 @@
     <ClInclude Include="ccan\compiler\compiler.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="arg-nonnull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bench_block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver-avalon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver-bflsc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver-bitfury.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver-drillbit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver-hashfast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fpgautils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hf_protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hf_protocol_be.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="klist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libbitfury.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mcp2210.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usbutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uthash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="warn-on-use.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Downloads\pthreads_compiled\pthread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Downloads\pthreads_compiled\sched.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Downloads\pthreads_compiled\semaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cgminer.c">
@@ -51,6 +114,72 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="sha2.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="api.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="api-example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitforce-firmware-flash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-avalon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-bab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-bflsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-bitforce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-bitfury.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-drillbit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-hashfast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-klondike.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-knc-spi-fpga.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-minion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-modminer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fpgautils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hexdump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="klist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libbitfury.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logging.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mcp2210.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="usbutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

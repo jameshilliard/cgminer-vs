@@ -49,19 +49,62 @@
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Downloads\pthreads_compiled\pthread.h" />
+    <ClInclude Include="..\..\Downloads\pthreads_compiled\sched.h" />
+    <ClInclude Include="..\..\Downloads\pthreads_compiled\semaphore.h" />
+    <ClInclude Include="arg-nonnull.h" />
+    <ClInclude Include="bench_block.h" />
     <ClInclude Include="c++defs.h" />
     <ClInclude Include="ccan\compiler\compiler.h" />
     <ClInclude Include="ccan\opt\opt.h" />
     <ClInclude Include="ccan\opt\private.h" />
+    <ClInclude Include="compat.h" />
+    <ClInclude Include="driver-avalon.h" />
+    <ClInclude Include="driver-bflsc.h" />
+    <ClInclude Include="driver-bitfury.h" />
+    <ClInclude Include="driver-drillbit.h" />
+    <ClInclude Include="driver-hashfast.h" />
+    <ClInclude Include="elist.h" />
+    <ClInclude Include="fpgautils.h" />
+    <ClInclude Include="hf_protocol.h" />
+    <ClInclude Include="hf_protocol_be.h" />
+    <ClInclude Include="klist.h" />
+    <ClInclude Include="libbitfury.h" />
     <ClInclude Include="logging.h" />
+    <ClInclude Include="mcp2210.h" />
     <ClInclude Include="miner.h" />
     <ClInclude Include="sha2.h" />
+    <ClInclude Include="usbutils.h" />
+    <ClInclude Include="uthash.h" />
     <ClInclude Include="util.h" />
+    <ClInclude Include="warn-on-use.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="api-example.c" />
+    <ClCompile Include="api.c" />
+    <ClCompile Include="bitforce-firmware-flash.c" />
     <ClCompile Include="cgminer.c" />
+    <ClCompile Include="driver-avalon.c" />
+    <ClCompile Include="driver-bab.c" />
+    <ClCompile Include="driver-bflsc.c" />
+    <ClCompile Include="driver-bitforce.c" />
+    <ClCompile Include="driver-bitfury.c" />
+    <ClCompile Include="driver-drillbit.c" />
+    <ClCompile Include="driver-hashfast.c" />
     <ClCompile Include="driver-icarus.c" />
+    <ClCompile Include="driver-klondike.c" />
+    <ClCompile Include="driver-knc-spi-fpga.c" />
+    <ClCompile Include="driver-minion.c" />
+    <ClCompile Include="driver-modminer.c" />
+    <ClCompile Include="fpgautils.c" />
+    <ClCompile Include="hexdump.c" />
+    <ClCompile Include="klist.c" />
+    <ClCompile Include="libbitfury.c" />
+    <ClCompile Include="logging.c" />
+    <ClCompile Include="mcp2210.c" />
     <ClCompile Include="sha2.c" />
+    <ClCompile Include="usbutils.c" />
+    <ClCompile Include="util.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
