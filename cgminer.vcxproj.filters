@@ -96,13 +96,13 @@
     <ClInclude Include="warn-on-use.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Downloads\pthreads_compiled\pthread.h">
+    <ClInclude Include="pthread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Downloads\pthreads_compiled\sched.h">
+    <ClInclude Include="sched.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Downloads\pthreads_compiled\semaphore.h">
+    <ClInclude Include="semaphore.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -49,9 +49,6 @@
     <Text Include="readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Downloads\pthreads_compiled\pthread.h" />
-    <ClInclude Include="..\..\Downloads\pthreads_compiled\sched.h" />
-    <ClInclude Include="..\..\Downloads\pthreads_compiled\semaphore.h" />
     <ClInclude Include="arg-nonnull.h" />
     <ClInclude Include="bench_block.h" />
     <ClInclude Include="c++defs.h" />
@@ -73,6 +70,9 @@
     <ClInclude Include="logging.h" />
     <ClInclude Include="mcp2210.h" />
     <ClInclude Include="miner.h" />
+    <ClInclude Include="pthread.h" />
+    <ClInclude Include="sched.h" />
+    <ClInclude Include="semaphore.h" />
     <ClInclude Include="sha2.h" />
     <ClInclude Include="usbutils.h" />
     <ClInclude Include="uthash.h" />
