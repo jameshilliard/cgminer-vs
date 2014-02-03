@@ -50,9 +50,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c++defs.h" />
+    <ClInclude Include="logging.h" />
+    <ClInclude Include="miner.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cgminer.c" />
+    <ClCompile Include="driver-icarus.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

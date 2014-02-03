@@ -21,9 +21,21 @@
     <ClInclude Include="c++defs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="miner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cgminer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver-icarus.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
