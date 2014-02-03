@@ -50,6 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="c++defs.h" />
+    <ClInclude Include="ccan\compiler\compiler.h" />
+    <ClInclude Include="ccan\opt\opt.h" />
+    <ClInclude Include="ccan\opt\private.h" />
     <ClInclude Include="logging.h" />
     <ClInclude Include="miner.h" />
     <ClInclude Include="sha2.h" />

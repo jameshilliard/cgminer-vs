@@ -33,6 +33,15 @@
     <ClInclude Include="sha2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ccan\opt\opt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccan\opt\private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ccan\compiler\compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cgminer.c">

@@ -8,9 +8,9 @@
  * Software Foundation; either version 3 of the License, or (at your option)
  * any later version.  See COPYING for more details.
  */
-
+#ifndef WIN32
 #include "config.h"
-
+#endif
 #ifdef HAVE_CURSES
 #include <curses.h>
 #endif
@@ -20,8 +20,10 @@
 #include <string.h>
 #include <stdbool.h>
 #include <stdint.h>
+#ifndef WIN32
 #include <unistd.h>
 #include <sys/time.h>
+#endif
 #include <time.h>
 #include <math.h>
 #include <stdarg.h>

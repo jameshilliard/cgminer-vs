@@ -1,7 +1,9 @@
 #ifndef CCAN_COMPILER_H
 #define CCAN_COMPILER_H
-#include "config.h"
 
+#ifndef WIN32
+#include "config.h"
+#endif
 #ifndef COLD
 #if HAVE_ATTRIBUTE_COLD
 /**

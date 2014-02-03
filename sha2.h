@@ -31,8 +31,9 @@
  * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
  * SUCH DAMAGE.
  */
-
+#ifndef WIN32
 #include "config.h"
+#endif
 #include "miner.h"
 
 #ifndef SHA2_H
