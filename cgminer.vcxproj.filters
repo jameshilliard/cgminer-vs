@@ -30,12 +30,18 @@
     <ClInclude Include="util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="sha2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cgminer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="driver-icarus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
