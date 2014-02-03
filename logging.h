@@ -1,7 +1,12 @@
 #ifndef __LOGGING_H__
 #define __LOGGING_H__
 
+#ifndef WIN32
 #include "config.h"
+#else
+#include "win32config.h"
+#endif
+
 #include <stdbool.h>
 #include <stdarg.h>
 

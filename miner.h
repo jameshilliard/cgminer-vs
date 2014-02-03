@@ -1,11 +1,16 @@
 #ifndef __MINER_H__
 #define __MINER_H__
 
+#ifndef WIN32
 #include "config.h"
+#include <sys/time.h>
+#else
+#include "win32config.h"
+#include <time.h>
+#endif
 
 #include <stdbool.h>
 #include <stdint.h>
-#include <sys/time.h>
 #include <pthread.h>
 #include <jansson.h>
 #ifdef HAVE_LIBCURL

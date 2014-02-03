@@ -38,6 +38,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <NMakeOutput>cgminer.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <IncludePath>$(ProjectDir);$(IncludePath);$(ProjectDir)\compat\jansson-2.5\src</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <NMakeOutput>cgminer.exe</NMakeOutput>
@@ -78,6 +79,7 @@
     <ClInclude Include="uthash.h" />
     <ClInclude Include="util.h" />
     <ClInclude Include="warn-on-use.h" />
+    <ClInclude Include="win32config.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="api-example.c" />

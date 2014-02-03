@@ -10,22 +10,34 @@
  */
 #ifndef WIN32
 #include "config.h"
+#else
+#include "win32config.h"
 #endif
+
 #ifdef HAVE_CURSES
 #include <curses.h>
 #endif
+
+
+#ifndef WIN32
+#include <unistd.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+#else
+#include <getopt.h>
+#include <time.h>
+#include <windows.h>
+#endif
+
+#include <sha2.h>
+
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
 #include <stdint.h>
-#ifndef WIN32
-#include <unistd.h>
-#include <sys/time.h>
-#else
-#include <time.h>
-#endif
 
 #include <time.h>
 #include <math.h>
@@ -41,11 +53,6 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#ifndef WIN32
-#include <sys/resource.h>
-#else
-#include <windows.h>
-#endif
 #include <ccan/opt/opt.h>
 #include <jansson.h>
 #ifdef HAVE_LIBCURL
@@ -54,7 +61,6 @@
 char *curly = ":D";
 #endif
 #include <libgen.h>
-#include <sha2.h>
 
 #include "compat.h"
 #include "miner.h"

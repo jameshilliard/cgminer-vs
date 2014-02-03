@@ -5,7 +5,13 @@
 #include "config.h"
 #include <errno.h>
 #include <time.h>
+
+#ifndef WIN32
 #include <pthread.h>
+#else
+#include "pthread.h"
+#endif
+
 #include <sys/time.h>
 
 #include "miner.h"  // for timersub
